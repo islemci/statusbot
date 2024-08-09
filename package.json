@@ -1,0 +1,20 @@
+{
+  "name": "statusbot",
+  "version": "0.7.1",
+  "description": "A bot that checks the server response code and response time, and logs a status message at Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "@islemci",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "discord.js": "^14.15.3",
+    "worldbase": "^0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/islemci/statusbot.git"
+  }
+}
